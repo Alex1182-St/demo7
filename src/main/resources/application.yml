@@ -8,10 +8,3 @@ graphql:
     schema-location-pattern: "**/*.graphqls"
     introspection-enabled: true
 
-
-altair:
-  enabled: true
-  mapping: /altair
-  endpoint.graphql: /graphql
-  pageTitle: Altair
-  props.resources.variables: graphqls/altair/variables.graphql
