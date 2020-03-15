@@ -13,4 +13,5 @@ type Mutation {
 
 type Query {
     clientById(clientId:ID!): Client!
+    allClientS: [Client]
 }

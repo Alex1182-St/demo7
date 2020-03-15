@@ -27,6 +27,8 @@ dependencies {
 // GraphQL
 	implementation("com.graphql-java-kickstart:graphql-spring-boot-starter:6.0.1")
 	testImplementation("com.graphql-java-kickstart:graphql-spring-boot-starter-test:6.0.1")
+	implementation ("com.graphql-java:graphiql-spring-boot-starter:5.0.2")
+
 
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
 	implementation("org.springframework.boot:spring-boot-starter-security")

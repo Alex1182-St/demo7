@@ -8,7 +8,9 @@ class ClientQueryResolver (val clientRepo : ClientRepository) : GraphQLQueryReso
     fun clientById (clientId: UUID) {
         clientRepo.findById(clientId)
             }
-
+    fun allClients () {
+        clientRepo.findAll()
+    }
 
 
 }
