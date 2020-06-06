@@ -6,4 +6,5 @@ import java.util.*
 
 
 @Repository
+
 interface ClientRepository : JpaRepository<ClientEntity, UUID>

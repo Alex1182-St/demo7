@@ -5,9 +5,11 @@ import java.util.*
 
 class ClientQueryResolver (val clientRepo : ClientRepository) : GraphQLQueryResolver {
 
+
     fun clientById (clientId: UUID) {
         clientRepo.findById(clientId)
             }
+
     fun allClients () {
         clientRepo.findAll()
     }
